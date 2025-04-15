@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #1e90ff;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+section#home {
+    background: #f4f4f4;
+}
+
+.banner {
+    width: 200px; /* Reduce the image width even further */
+    height: auto; /* Maintain the aspect ratio */
+    margin-top: 10px; /* Minimal spacing above the image */
+  }
+  
+
+.destination {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    max-width: 300px; /* Restrict the overall width of the destination block */
+}
+
+.destination img {
+    width: 100%; /* Make the image fit within the container */
+    height: auto; /* Maintain the original aspect ratio */
+    border-radius: 10px; /* Add rounded corners for aesthetic appeal */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for a polished look */
+}
+
+form input,
+form button {
+    display: block;
+    width: 80%;
+    margin: 1rem auto;
+    padding: 10px;
+}
+
+form button {
+    background: #1e90ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #1c86ee;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+}
